@@ -1,6 +1,7 @@
 # oscp_bof-prep
 Buffer Overflow preparation for OSCP
 
+# Task: oscp.exe (OVERFLOW 1)
 # Fuzzing
 1. Run fuzzer.py & make a note of the largest number of bytes that were sent
    * Crashed at 2000 bytes
