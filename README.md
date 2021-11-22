@@ -13,6 +13,7 @@ Buffer Overflow preparation for OSCP
 2. Copy the output and place it into the payload var of exploit.py
 3. Restart the app in Immunity Debugger & Run exploit.py
 4. While the unique buffer is on the stack, use mona's findmsp command with the distance arg. set to the pattern length (2400)
+   * !mona config -set workingfolder c:\mona\%p
    * !mona findmsp -distance 2400
 
 
